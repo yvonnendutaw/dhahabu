@@ -1,0 +1,24 @@
+.row {
+    max-width: 100%;
+}
+body {
+    height: 100%;
+}
+.landing {
+    background-image: url(../img/Dhahabu%20Africa%20Logo%20Mod%20Presentation.png);
+    background-size: cover;
+    height: 100%;
+    background-color: #FFCC00;
+}
+.landing h4 {
+    margin-top: 32%;
+    margin-left: 40%;
+}
+.about {
+    height: auto;
+    background-color: #c9c2a8;
+}
+.para h4 {
+    padding: 5%;
+    text-align: center;
+}
