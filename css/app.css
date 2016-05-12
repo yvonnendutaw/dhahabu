@@ -25,3 +25,56 @@ body {
 .members {
     padding: 0 10%;
 }
+* {
+    margin: 0;
+    padding: 0;
+}
+#header_nav {
+    background: #fff;
+    box-shadow: 0px 5% 5% #4b3838;
+}
+header {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    background: white;
+    box-shadow: 4% 4% 5% #000000;
+}
+nav {
+    margin-bottom: 50px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 4% 4% 5% #000000;
+}
+ul {
+    width: 1000px;
+    margin: 0 auto;
+}
+nav li {
+    width: 110px;
+    display: inline-block;
+    padding: 20px 30px 20px 0;
+    &:first-child {
+        padding-left: 0;
+        margin-left: 0;
+    }
+    &:nth-child(3) {
+        padding-right: 80px;
+    }
+    &:nth-child(4) {
+        padding-left: 80px;
+    }
+    &:last-child {
+        padding-right: 0;
+    }
+}
+#logo {
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 5px;
+    left: 20%;
+    margin: 0 0 0 -40px;
+}
