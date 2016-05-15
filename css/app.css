@@ -8,7 +8,7 @@ body {
     background-image: url(../img/Dhahabu%20Africa%20Logo%20Mod%20Presentation.png);
     background-size: cover;
     height: 100%;
-    background-color: #FFCC00;
+    background-color: #ddb30a;
 }
 .landing h4 {
     margin-top: 32%;
@@ -16,7 +16,15 @@ body {
 }
 .about {
     height: auto;
-    background-color: #c9c2a8;
+    background-image: url(../img/ad_branding.jpg);
+    height: 80%;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+}
+.text-box {
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
 .para h4 {
     padding: 5%;
@@ -80,4 +88,6 @@ nav li {
 }
 .portfolio {
     height: 100%;
+    background-image: url(../img/Africa.jpg);
+    background-size: cover;
 }
