@@ -19,12 +19,14 @@ body {
     background-image: url(../img/ad_branding.jpg);
     height: 80%;
     background-size: cover;
-    color: white;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 500;
     background-attachment: fixed;
 }
 .text-box {
-    margin-top: 5%;
-    margin-bottom: 10%;
+    margin-top: 8%;
+    margin-bottom: 5%;
 }
 .para h4 {
     padding: 5%;
