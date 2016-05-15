@@ -6,7 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dhahabu Africa</title>
-
+    <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
@@ -14,11 +14,12 @@
 </head>
 
 <body>
+
     <section class="row small-12 columns">
         <header>
             <nav id="header_nav" class="small-12 columns">
                 <ul>
-                    <li><a href="#index">Home</a></li>
+                    <li class="small-2 large-2 cols"><a href="#index">Home</a></li>
                     <li>Photography</li>
                     <li>Design</li>
                     <li>About</li>
@@ -35,28 +36,64 @@
         <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
 
     </section>
-    <section class="row large-12 large-centered about">
 
-        <div class=" large-6 large-centered para">
-            <h4>About Dhahabu</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia dolorum nihil vel, beatae officiis eum sunt in inventore rem necessitatibus alias similique, quas unde minima repellendus, voluptates maiores delectus. Praesentium.unde minima repellendus, voluptates maiores .</p>
+    <section class="row small-12 large-centered about">
+        <div class="text-box large-8 large-centered">
+            <h2>ABOUT</h2>
+            <p class="small-12 cols">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur optio, tenetur ut harum placeat, recusandae officiis! Incidunt ea soluta blanditiis rem ipsa, amet harum vero, eos, explicabo itaque porro corporis.
             </p>
         </div>
-        <div class="row large-12 centered members">
-            <div class="large-6 columns">
-                <img src="img/Africa.jpg" alt="">
-            </div>
-            <div class="large-6 columns">
-                <img src="img/Africa.jpg" alt="">
-            </div>
-        </div>
-
     </section>
-<!--    <section class="portfolio row large-12 columns">-->
-        <div class="flex-video widescreen vimeo">
-            <iframe src="http://player.vimeo.com/video/60122989" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+    <section class="portfolio text-center row large-12 columns">
+        <h2>PROJECTS</h2>
+        <div class="large-6 flex-video widescreen">
+
         </div>
-<!-- </section>-->
+    </section>
+    <section class="row small-12 large-12 large-centered">
+        <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+            <ul class="orbit-container">
+                <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
+                <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
+                <li class="is-active orbit-slide">
+                    <div>
+                        <h3 class="text-center">You can also throw some text in here!</h3>
+                        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam. Rerum ratione, delectus atque tempore sed, suscipit ullam, beatae distinctio cupiditate ipsam eligendi tempora expedita.</p>
+                        <h3 class="text-center">This Orbit slide has chill</h3>
+                    </div>
+                </li>
+                <li class="orbit-slide">
+                    <div>
+                        <h3 class="text-center">You can also throw some text in here!</h3>
+                        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam. Rerum ratione, delectus atque tempore sed, suscipit ullam, beatae distinctio cupiditate ipsam eligendi tempora expedita.</p>
+                        <h3 class="text-center">This Orbit slide has chill</h3>
+                    </div>
+                </li>
+                <li class="orbit-slide">
+                    <div>
+                        <h3 class="text-center">You can also throw some text in here!</h3>
+                        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam. Rerum ratione, delectus atque tempore sed, suscipit ullam, beatae distinctio cupiditate ipsam eligendi tempora expedita.</p>
+                        <h3 class="text-center">This Orbit slide has chill</h3>
+                    </div>
+                </li>
+                <li class="orbit-slide">
+                    <div>
+                        <h3 class="text-center">You can also throw some text in here!</h3>
+                        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam. Rerum ratione, delectus atque tempore sed, suscipit ullam, beatae distinctio cupiditate ipsam eligendi tempora expedita.</p>
+                        <h3 class="text-center">This Orbit slide has chill</h3>
+                    </div>
+                </li>
+            </ul>
+            <nav class="orbit-bullets">
+                <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+                <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+                <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+            </nav>
+        </div>
+    </section>
     <section class="contact"></section>
     <section class="footer"></section>
 
