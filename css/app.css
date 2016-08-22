@@ -73,3 +73,13 @@ body {
 	z-index: 1;
 	overflow: auto;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-family: 'Satisfy', cursive;
+}
